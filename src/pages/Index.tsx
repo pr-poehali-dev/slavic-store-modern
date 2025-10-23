@@ -22,72 +22,103 @@ interface CartItem extends Product {
 const products: Product[] = [
   {
     id: 1,
-    name: 'Велесова Роса',
+    name: 'Банник',
     category: 'Парфюм',
     price: 4500,
-    description: 'Аромат древних лесов с нотами можжевельника, дубового мха и белого кедра',
-    myth: 'Велес — бог мудрости и магии, покровитель лесов',
-    image: 'https://cdn.poehali.dev/projects/d9e499a8-5a4d-4d69-ae8a-a68f13514481/files/44f5a0a2-2ca2-4d78-a07e-cb9e973e7f3d.jpg'
+    description: 'Аромат березового веника, дегтярного мыла и горячего пара. Ноты: береза, деготь, липа',
+    myth: 'Дух бани, живущий за печкой. По поверьям, моются только в его присутствие',
+    image: 'https://cdn.poehali.dev/projects/d9e499a8-5a4d-4d69-ae8a-a68f13514481/files/39bf1485-389b-4ed2-bbc7-8381f4c48b59.jpg'
   },
   {
     id: 2,
-    name: 'Макошь',
+    name: 'Кикимора Болотная',
     category: 'Крем',
     price: 2800,
-    description: 'Питательный крем с экстрактом льна и медовой росы',
-    myth: 'Макошь — богиня плодородия и женской судьбы',
-    image: 'https://cdn.poehali.dev/projects/d9e499a8-5a4d-4d69-ae8a-a68f13514481/files/44f5a0a2-2ca2-4d78-a07e-cb9e973e7f3d.jpg'
+    description: 'Крем с торфом, мхом и багульником. Увлажняет как утренняя болотная дымка',
+    myth: 'Хозяйка болот и трясин, заманивает путников огоньками',
+    image: 'https://cdn.poehali.dev/projects/d9e499a8-5a4d-4d69-ae8a-a68f13514481/files/39bf1485-389b-4ed2-bbc7-8381f4c48b59.jpg'
   },
   {
     id: 3,
-    name: 'Перунов Огонь',
+    name: 'Домовой',
     category: 'Диффузор',
     price: 3200,
-    description: 'Пряный аромат с нотами можжевельника, сандала и дымка',
-    myth: 'Перун — бог грозы, покровитель воинов',
-    image: 'https://cdn.poehali.dev/projects/d9e499a8-5a4d-4d69-ae8a-a68f13514481/files/44f5a0a2-2ca2-4d78-a07e-cb9e973e7f3d.jpg'
+    description: 'Запах старого дома: печное тепло, сухие травы на чердаке, пыльные половицы',
+    myth: 'Хранитель домашнего очага, живет за печкой и охраняет покой семьи',
+    image: 'https://cdn.poehali.dev/projects/d9e499a8-5a4d-4d69-ae8a-a68f13514481/files/39bf1485-389b-4ed2-bbc7-8381f4c48b59.jpg'
   },
   {
     id: 4,
-    name: 'Лада',
+    name: 'Русалка',
     category: 'Парфюм',
     price: 4200,
-    description: 'Нежный цветочный аромат с акцентами белых трав и росы',
-    myth: 'Лада — богиня любви, красоты и семейного очага',
-    image: 'https://cdn.poehali.dev/projects/d9e499a8-5a4d-4d69-ae8a-a68f13514481/files/44f5a0a2-2ca2-4d78-a07e-cb9e973e7f3d.jpg'
+    description: 'Водяная свежесть с нотами речной тины, кувшинок и ивовых сережек',
+    myth: 'Девы-утопленницы, живущие в реках и заманивающие путников на Русальной неделе',
+    image: 'https://cdn.poehali.dev/projects/d9e499a8-5a4d-4d69-ae8a-a68f13514481/files/39bf1485-389b-4ed2-bbc7-8381f4c48b59.jpg'
   },
   {
     id: 5,
-    name: 'Сварожья Купель',
+    name: 'Леший',
     category: 'Крем',
     price: 3100,
-    description: 'Восстанавливающий крем с экстрактом березовых почек',
-    myth: 'Сварог — бог-творец, создатель мира',
-    image: 'https://cdn.poehali.dev/projects/d9e499a8-5a4d-4d69-ae8a-a68f13514481/files/44f5a0a2-2ca2-4d78-a07e-cb9e973e7f3d.jpg'
+    description: 'Крем с экстрактом мха, еловой смолы и грибного мицелия',
+    myth: 'Хозяин леса, сбивающий с пути тех, кто не уважает его владения',
+    image: 'https://cdn.poehali.dev/projects/d9e499a8-5a4d-4d69-ae8a-a68f13514481/files/39bf1485-389b-4ed2-bbc7-8381f4c48b59.jpg'
   },
   {
     id: 6,
-    name: 'Морена',
+    name: 'Полуночница',
     category: 'Диффузор',
     price: 2900,
-    description: 'Таинственный аромат зимнего леса с хвоей и ягодами',
-    myth: 'Морена — богиня зимы и возрождения',
-    image: 'https://cdn.poehali.dev/projects/d9e499a8-5a4d-4d69-ae8a-a68f13514481/files/44f5a0a2-2ca2-4d78-a07e-cb9e973e7f3d.jpg'
+    description: 'Ночной аромат: полынь, можжевельник, дымок гаснущей свечи',
+    myth: 'Приходит в полночь к непослушным детям и тем, кто работает после заката',
+    image: 'https://cdn.poehali.dev/projects/d9e499a8-5a4d-4d69-ae8a-a68f13514481/files/39bf1485-389b-4ed2-bbc7-8381f4c48b59.jpg'
+  },
+  {
+    id: 7,
+    name: 'Овинник',
+    category: 'Парфюм',
+    price: 3800,
+    description: 'Запах высушенного зерна, соломы и теплого овина. Ноты: пшеница, сено, дым',
+    myth: 'Дух, охраняющий овин — место сушки снопов. Не любит шума и непорядка',
+    image: 'https://cdn.poehali.dev/projects/d9e499a8-5a4d-4d69-ae8a-a68f13514481/files/39bf1485-389b-4ed2-bbc7-8381f4c48b59.jpg'
+  },
+  {
+    id: 8,
+    name: 'Водяной',
+    category: 'Крем',
+    price: 2700,
+    description: 'Освежающий крем с речными водорослями и экстрактом камыша',
+    myth: 'Хозяин водоемов, требующий жертв и топящий нерадивых купальщиков',
+    image: 'https://cdn.poehali.dev/projects/d9e499a8-5a4d-4d69-ae8a-a68f13514481/files/39bf1485-389b-4ed2-bbc7-8381f4c48b59.jpg'
+  },
+  {
+    id: 9,
+    name: 'Шишига',
+    category: 'Диффузор',
+    price: 3100,
+    description: 'Запах заброшенных изб: пыль, гнилое дерево, забытые вещи',
+    myth: 'Мелкая нечисть, живущая в заброшенных домах и хулиганящая по ночам',
+    image: 'https://cdn.poehali.dev/projects/d9e499a8-5a4d-4d69-ae8a-a68f13514481/files/39bf1485-389b-4ed2-bbc7-8381f4c48b59.jpg'
   }
 ];
 
 const myths = [
   {
-    title: 'Велес — Хранитель Лесов',
-    text: 'В древних славянских преданиях Велес был богом мудрости, магии и скота. Его образ тесно связан с дремучими лесами, где он являлся проводником между мирами. Наш аромат "Велесова Роса" воссоздает атмосферу священных дубрав.'
+    title: 'Банник — Дух Бани',
+    text: 'Банник живет за печкой в каждой русской бане. Считается, что без его разрешения нельзя париться после полуночи. Наш аромат передает атмосферу традиционной бани: березовый веник, дегтярное мыло, горячий пар и липовый настой.'
   },
   {
-    title: 'Макошь — Пряха Судеб',
-    text: 'Макошь — великая богиня, прядущая нити судьбы у космического колодца. Она покровительствует женским ремеслам, плодородию и семейному очагу. В ее честь создан крем, дарующий силу и красоту.'
+    title: 'Домовой — Хранитель Очага',
+    text: 'Домовой — самый добрый из нечисти. Он живет за печкой, следит за порядком и оберегает дом от бед. Наш диффузор воссоздает запах старого деревенского дома: теплая печь, сухие травы на чердаке, половицы из сосны.'
   },
   {
-    title: 'Перун — Громовержец',
-    text: 'Перун — верховный бог-громовержец, повелитель небесного огня. Его оружие — молнии, его стихия — гроза. Диффузор "Перунов Огонь" передает мощь и величие этого божества через пряные древесные ноты.'
+    title: 'Леший — Хозяин Леса',
+    text: 'Леший может сбить с пути любого, кто входит в лес без уважения. Он охраняет зверей и деревья. Аромат передает дух дремучего леса: мох, еловая смола, грибы и влажная земля после дождя.'
+  },
+  {
+    title: 'Русалки на Русальной Неделе',
+    text: 'После Троицы русалки выходят из воды и качаются на ветвях ив. В это время нельзя купаться и ходить к реке одному. Наш парфюм — это запах речного берега: кувшинки, тина, ива и утренний туман над водой.'
   }
 ];
 
@@ -131,7 +162,7 @@ export default function Index() {
             <div className="w-10 h-10 bg-primary rounded-full flex items-center justify-center">
               <span className="text-white text-xl">✦</span>
             </div>
-            <h1 className="text-2xl font-display font-bold text-foreground">Старославянские Ароматы</h1>
+            <h1 className="text-2xl font-display font-bold text-foreground">Нечистая Сила</h1>
           </div>
           
           <nav className="hidden md:flex gap-6">
@@ -142,7 +173,7 @@ export default function Index() {
               Каталог
             </button>
             <button onClick={() => setCurrentSection('myths')} className="text-foreground hover:text-primary transition-colors">
-              Мифы
+              Предания
             </button>
           </nav>
 
@@ -210,7 +241,7 @@ export default function Index() {
           <div 
             className="absolute inset-0 z-0"
             style={{
-              backgroundImage: 'url(https://cdn.poehali.dev/projects/d9e499a8-5a4d-4d69-ae8a-a68f13514481/files/34679bc7-e467-4596-a0e3-792f4e70af29.jpg)',
+              backgroundImage: 'url(https://cdn.poehali.dev/projects/d9e499a8-5a4d-4d69-ae8a-a68f13514481/files/a022ca1a-fc36-4406-bf3c-ad02fb674222.jpg)',
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               filter: 'brightness(0.4)'
@@ -234,10 +265,10 @@ export default function Index() {
             </div>
             
             <h1 className="text-5xl md:text-7xl font-display font-bold text-white mb-6 tracking-tight">
-              Ароматы Древних Богов
+              Ароматы Нечистой Силы
             </h1>
             <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
-              Нишевая парфюмерия, вдохновленная старославянской мифологией
+              Парфюмерия, вдохновленная славянскими преданиями о духах, нечисти и забытых традициях
             </p>
             
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -245,7 +276,7 @@ export default function Index() {
                 Открыть каталог
               </Button>
               <Button size="lg" variant="outline" className="text-lg px-8 bg-white/10 backdrop-blur border-white text-white hover:bg-white hover:text-foreground" onClick={() => setCurrentSection('myths')}>
-                История ароматов
+                Старые предания
               </Button>
             </div>
           </div>
@@ -258,7 +289,7 @@ export default function Index() {
             <div className="text-center mb-16 animate-fade-in">
               <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">Каталог</h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Каждый аромат — это путешествие в мир славянских легенд и преданий
+                Каждый аромат — это воспоминание о старых традициях, духах и забытых ритуалах
               </p>
             </div>
 
@@ -298,9 +329,9 @@ export default function Index() {
         <section className="py-20 bg-secondary/30">
           <div className="container mx-auto px-4">
             <div className="text-center mb-16 animate-fade-in">
-              <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">История Ароматов</h2>
+              <h2 className="text-4xl md:text-5xl font-display font-bold mb-4">Старые Предания</h2>
               <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-                Узнайте больше о славянских богах, вдохновивших нашу коллекцию
+                Узнайте больше о нечистой силе и духах, вдохновивших нашу коллекцию
               </p>
             </div>
 
@@ -329,7 +360,7 @@ export default function Index() {
             <div>
               <h3 className="font-display font-bold text-lg mb-4">О нас</h3>
               <p className="text-sm text-background/80">
-                Нишевая парфюмерия с душой древних славян
+                Ароматы старых преданий и забытых традиций
               </p>
             </div>
             <div>
@@ -357,7 +388,7 @@ export default function Index() {
             </div>
           </div>
           <div className="border-t border-background/20 mt-8 pt-8 text-center text-sm text-background/60">
-            © 2024 Старославянские Ароматы. Все права защищены.
+            © 2024 Нечистая Сила. Все права защищены.
           </div>
         </div>
       </footer>
